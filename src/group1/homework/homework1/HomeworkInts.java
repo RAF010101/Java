@@ -1,6 +1,6 @@
-package group1.homework;
+package group1.homework.homework1;
 
-public class Homework1 {
+public class HomeworkInts {
     public static void main(String[] args) {
         int x, y;
         x = 70;

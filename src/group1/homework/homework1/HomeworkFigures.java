@@ -1,6 +1,6 @@
-package group1.homework;
+package group1.homework.homework1;
 
-public class Homework3 {
+public class HomeworkFigures {
     public static void main(String[] args) {
         System.out.println("Start Figure 1");
         for (int i = 0; i < 5; i++) {

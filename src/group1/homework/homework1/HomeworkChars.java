@@ -1,6 +1,6 @@
-package group1.homework;
+package group1.homework.homework1;
 
-public class Homework2 {
+public class HomeworkChars {
     public static void main(String[] args) {
         int a = 70, b = 80;
         for (int i = a; i <= b; i++) {
