@@ -21,10 +21,13 @@ public class ArrayUtil {
         int reusult = 0;
         for (int i = 0; i < array.length; i++) {
             reusult = reusult + array[i];
-            System.out.print(" "+ reusult);
-
+            System.out.print(" "+ reusult );
 
         }
+        System.out.println();
+        reusult = reusult / 9;
+        System.out.println(reusult);
+
 
     }
 
