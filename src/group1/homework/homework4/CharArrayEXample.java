@@ -10,19 +10,23 @@ public class CharArrayEXample {
         }
         System.out.println("Me have another " + checking + " " + ch);
         char[] ch2 = {'j', 'a', 'v', 'a', 'l', 'o', 'v', 'e'};
-        int p = (ch2.length - 1) / 2;
-        int c = p + 1;
-        System.out.println(ch2[p]);
-        System.out.println(ch2[c]);
+        System.out.println(ch2[ch2.length / 2]);
+        System.out.println(ch2[((ch2.length / 2) + 1)]);
+
+
+
         char[] ch3 = {'j', 'a', 'v', 'a', 'l', 'o', 'l', 'y'};
-        boolean op = false;
-        if (ch3[6] == 'l' && ch3[7] == 'y') {
-            op = true;
+        boolean b1 = false;
+        if (ch3[ch3.length - 2] == 'l' && ch3[ch3.length - 1] == 'y') {
+            b1 = true;
         }
-        System.out.println(op);
+        System.out.println(b1);
         char[] text = {' ', ' ', 'b', 'a', 'r', 'e', 'v', ' ', ' '};
+        for (char i : text) {
+            if (i != ' ')
+                System.out.print(i);
 
-
+        }
     }
 }
 
