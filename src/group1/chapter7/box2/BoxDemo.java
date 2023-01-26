@@ -1,13 +1,26 @@
 package group1.chapter7.box2;
 
-public class BoxDemo {
-    public static void main(String[] args) {
-        Box mybox1 = new Box(20,10,15);
-        Box mybox2 = new Box();
-        Box mybox3 = new Box(7);
-        System.out.println("First Box volume  =" + mybox1.volume());
-        System.out.println("Second Box volume = " +mybox2.volume());
-        System.out.println("Third Box volume = "+ mybox3.volume());
+import group1.chapter7.test3.TestDemo;
 
+public class BoxDemo {
+    double height;
+    double width;
+    double depth;
+    BoxDemo (BoxDemo ob) {
+        height = ob.height;
+        width = ob.width;
+        depth = ob.depth;
     }
+    BoxDemo(double h, double w , double d){
+        height = h;
+        width = w;
+        depth = d;
+    }
+    BoxDemo(double len) {
+        height = width = depth = len;
+    }
+    double volume (){
+        return height * width * depth;
+    }
+
 }
